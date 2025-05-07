@@ -7,25 +7,15 @@ MAPPINGS = [
     (r'is greenlit', 'True'),
     (r'is red-flagged', 'False'),
     
-    # Arithmetic operations with assignment combined (new syntax with apostrophes and comma)
+    # Arithmetic operations with nested assignments
     (r'Corporate will assign \'the combined efforts of (.*?) and (.*?)\'(,)? to (.*)', r'\3 = \1 + \2'),
     (r'Corporate will assign \'the removal of (.*?) off the (.*?) team\'(,)? to (.*)', r'\3 = \2 - \1'),
     (r'Corporate will assign \'the increased profitability of (.*?) by a factor of (.*?)\'(,)? to (.*)', r'\3 = \1 * \2'),
     (r'Corporate will assign \'the delegation of (.*?) tasks amongst the (.*?) teams\'(,)? to (.*)', r'\3 = \1 / \2'),
     (r'Corporate will assign \'the budget surplus left over from (.*?) after the (.*?) costs\'(,)? to (.*)', r'\3 = \1 % \2'),
     
-    # Arithmetic operations with assignment combined (original syntax)
-    (r'Corporate will assign the combined efforts of (.*?) and (.*?) to (.*)', r'\3 = \1 + \2'),
-    (r'Corporate will assign the removal of (.*?) off the (.*?) team to (.*)', r'\3 = \2 - \1'),
-    (r'Corporate will assign the increased profitability of (.*?) by a factor of (.*?) to (.*)', r'\3 = \1 * \2'),
-    (r'Corporate will assign the delegation of (.*?) tasks amongst the (.*?) teams to (.*)', r'\3 = \1 / \2'),
-    (r'Corporate will assign the budget surplus left over from (.*?) after the (.*?) costs to (.*)', r'\3 = \1 % \2'),
-    
-    # Simple assignment (new syntax with apostrophes and comma)
+    # Simple assignment
     (r'Corporate will assign \'(.*?)\'(,)? to (.*)', r'\3 = \1'),
-    
-    # Simple assignment (original syntax)
-    (r'Corporate will assign (.*?) to (.*)', r'\2 = \1'),
     
     # Standalone arithmetic operations
     (r'the combined efforts of (.*?) and (.*?)', r'\1 + \2'),
@@ -45,7 +35,7 @@ MAPPINGS = [
     (r'either "(.*?)" or "(.*?)" are check-marked prerequisites', r'(\1) or (\2)'),
     (r'(.*?) is not check-marked', r'not (\1)'),
     
-    # Conditionals - new patterns with apostrophes and comma
+    # Conditionals
     (r'In the case that \'(.*?)\'(,)?', r'if \1:'),
     (r'In the case that (.*)', r'if \1:'),  # Keep old pattern for backward compatibility
     (r'Alternatively, in the case that \'(.*?)\'(,)?', r'elif \1:'),
