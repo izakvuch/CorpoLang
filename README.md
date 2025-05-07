@@ -1,6 +1,6 @@
 # CorpoLang
 
-CorpoLang is a domain-specific language designed for corporate environments. It provides a structured way to express business logic and workflows.
+CorpoLang is a general purpose language written completely in corporate jargon, so if what you're reading doesn't make any sense whatsoever, don't worry.
 
 ## Structure
 
