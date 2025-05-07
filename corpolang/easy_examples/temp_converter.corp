@@ -6,13 +6,13 @@ This project, convert_fahrenheit_to_celsius, will have the following deliverable
     sidenote: Formula: C = (F - 32) * 5/9
     
     sidenote: First, subtract 32 from fahrenheit (F - 32)
-    Corporate will assign 'fahrenheit - 32' to adjusted_temp
+    Corporate will assign 'the removal of 32 off the fahrenheit team' to adjusted_temp
     
     sidenote: Then multiply by 5 ((F - 32) * 5)
-    Corporate will assign 'adjusted_temp * 5' to multiplied_temp
+    Corporate will assign 'the increased profitability of adjusted_temp by a factor of 5' to multiplied_temp
     
     sidenote: Finally, divide by 9 ((F - 32) * 5/9)
-    Corporate will assign 'multiplied_temp / 9' to celsius
+    Corporate will assign 'the delegation of multiplied_temp tasks amongst the 9 teams' to celsius
     
     sidenote: Return the result
     then we'll go live with the celsius

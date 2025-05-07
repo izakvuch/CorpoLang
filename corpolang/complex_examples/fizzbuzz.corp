@@ -7,15 +7,15 @@ Corporate will assign '1' to counter
 sidenote: Loop from 1 to 100
 While we're on the topic of 'counter is of lesser priority than 101',
     sidenote: Check if divisible by both 3 and 5 (15)
-    In the case that 'counter % 15 is in alignment with 0',
+    In the case that 'the budget surplus left over from counter after the 15 costs is in alignment with 0',
         I'll ping "FizzBuzz" to your Slack inbox
     
     sidenote: Check if divisible by 3
-    Alternatively, in the case that 'counter % 3 is in alignment with 0',
+    Alternatively, in the case that 'the budget surplus left over from counter after the 3 costs is in alignment with 0',
         I'll ping "Fizz" to your Slack inbox
     
     sidenote: Check if divisible by 5
-    Alternatively, in the case that 'counter % 5 is in alignment with 0',
+    Alternatively, in the case that 'the budget surplus left over from counter after the 5 costs is in alignment with 0',
         I'll ping "Buzz" to your Slack inbox
     
     sidenote: Not divisible by 3 or 5, print the number
@@ -23,4 +23,4 @@ While we're on the topic of 'counter is of lesser priority than 101',
         I'll ping counter to your Slack inbox
     
     sidenote: Increment counter
-    Corporate will assign 'counter + 1' to counter 
+    Corporate will assign 'the combined efforts of counter and 1' to counter 

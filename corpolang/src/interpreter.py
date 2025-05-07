@@ -8,11 +8,11 @@ MAPPINGS = [
     (r'is red-flagged', 'False'),
     
     # Arithmetic operations with nested assignments
-    (r'Corporate will assign \'the combined efforts of (.*?) and (.*?)\'(,)? to (.*)', r'\3 = \1 + \2'),
-    (r'Corporate will assign \'the removal of (.*?) off the (.*?) team\'(,)? to (.*)', r'\3 = \2 - \1'),
-    (r'Corporate will assign \'the increased profitability of (.*?) by a factor of (.*?)\'(,)? to (.*)', r'\3 = \1 * \2'),
-    (r'Corporate will assign \'the delegation of (.*?) tasks amongst the (.*?) teams\'(,)? to (.*)', r'\3 = \1 / \2'),
-    (r'Corporate will assign \'the budget surplus left over from (.*?) after the (.*?) costs\'(,)? to (.*)', r'\3 = \1 % \2'),
+    (r'Corporate will assign \'the combined efforts of (.*?) and (.*?)\'(,)? to (.*)', r'\4 = \1 + \2'),
+    (r'Corporate will assign \'the removal of (.*?) off the (.*?) team\'(,)? to (.*)', r'\4 = \2 - \1'),
+    (r'Corporate will assign \'the increased profitability of (.*?) by a factor of (.*?)\'(,)? to (.*)', r'\4 = \1 * \2'),
+    (r'Corporate will assign \'the delegation of (.*?) tasks amongst the (.*?) teams\'(,)? to (.*)', r'\4 = \1 / \2'),
+    (r'Corporate will assign \'the budget surplus left over from (.*?) after the (.*?) costs\'(,)? to (.*)', r'\4 = \1 % \2'),
     
     # Simple assignment
     (r'Corporate will assign \'(.*?)\'(,)? to (.*)', r'\3 = \1'),

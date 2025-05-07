@@ -24,7 +24,7 @@ While we're on the topic of 'not game_over',
     Corporate will assign 'int(user_input)' to user_guess
     
     sidenote: Increment attempt counter
-    Corporate will assign 'attempts + 1' to attempts
+    Corporate will assign 'the combined efforts of attempts and 1' to attempts
     
     sidenote: Check if guess is correct
     In the case that 'user_guess is in alignment with secret_number',
