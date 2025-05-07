@@ -1,5 +1,5 @@
 sidenote: Fahrenheit to Celsius Converter in CorpoLang
-sidenote: use corpolang/src/interpreter.py corpolang/easy_examples/temp_converter.corp to run
+sidenote: use python3 corpolang/src/interpreter.py corpolang/easy_examples/temp_converter.corp to run
 
 sidenote: Define a function to convert Fahrenheit to Celsius
 This project, convert_fahrenheit_to_celsius, will have the following deliverables: fahrenheit

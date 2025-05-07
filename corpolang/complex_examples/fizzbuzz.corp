@@ -1,5 +1,5 @@
-sidenote: FizzBuzz Implementation in CorpoLang
-sidenote: use corpolang/src/interpreter.py corpolang/complex_examples/fizzbuzz.corp to run
+sidenote: FizzBuzz in CorpoLang
+sidenote: use python3 corpolang/src/interpreter.py corpolang/complex_examples/fizzbuzz.corp to run
 
 sidenote: Initialize counter variable
 Corporate will assign '1' to counter

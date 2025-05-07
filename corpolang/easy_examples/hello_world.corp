@@ -1,5 +1,5 @@
-sidenote: Hello World program in CorpoLang
-sidenote: use corpolang/corpolang.py corpolang/easy_examples/hello_world.corp to run
+sidenote: Hello World Example in CorpoLang
+sidenote: use python3 corpolang/corpolang.py corpolang/easy_examples/hello_world.corp to run
 
 I'll ping "Hello, World!" to your Slack inbox
 

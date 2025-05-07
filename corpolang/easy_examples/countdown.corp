@@ -1,5 +1,5 @@
-sidenote: Countdown Program using while loop
-sidenote: use corpolang/src/interpreter.py corpolang/easy_examples/countdown.corp to run
+sidenote: Countdown Example in CorpoLang
+sidenote: use python3 corpolang/src/interpreter.py corpolang/easy_examples/countdown.corp to run
 
 sidenote: Start with 10
 Corporate will assign '10' to countdown_timer
