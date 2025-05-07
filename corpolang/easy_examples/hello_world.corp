@@ -1,0 +1,10 @@
+sidenote: Hello World program in CorpoLang
+sidenote: use corpolang/corpolang.py corpolang/easy_examples/hello_world.corp to run
+
+I'll ping "Hello, World!" to your Slack inbox
+
+Corporate will assign "CorpoLang" to language_name
+
+I'll ping "Welcome to" to your Slack inbox
+I'll ping language_name to your Slack inbox
+I'll ping "programming!" to your Slack inbox 

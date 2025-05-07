@@ -1,0 +1,26 @@
+sidenote: FizzBuzz Implementation in CorpoLang
+sidenote: use corpolang/corpolang.py corpolang/complex_examples/fizzbuzz.corp to run
+
+sidenote: Initialize counter variable
+Corporate will assign 1 to counter
+
+sidenote: Loop from 1 to 100
+While we're on the topic of 'counter is of lesser priority than 101',
+    sidenote: Check if divisible by both 3 and 5 (15)
+    In the case that 'the budget surplus left over from counter after the 15 costs is in alignment with 0',
+        I'll ping "FizzBuzz" to your Slack inbox
+    
+    sidenote: Check if divisible by 3
+    Alternatively, in the case that 'the budget surplus left over from counter after the 3 costs is in alignment with 0',
+        I'll ping "Fizz" to your Slack inbox
+    
+    sidenote: Check if divisible by 5
+    Alternatively, in the case that 'the budget surplus left over from counter after the 5 costs is in alignment with 0',
+        I'll ping "Buzz" to your Slack inbox
+    
+    sidenote: Not divisible by 3 or 5, print the number
+    Otherwise, let's pivot to
+        I'll ping counter to your Slack inbox
+    
+    sidenote: Increment counter
+    Corporate will assign the combined efforts of counter and 1 to counter 

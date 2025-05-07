@@ -1,0 +1,44 @@
+sidenote: Guess the Number Game in CorpoLang
+sidenote: use corpolang/corpolang.py corpolang/complex_examples/guess_number.corp to run
+
+sidenote: Import random module
+Let's leverage random moving forward for this project
+
+I'll ping "Welcome to the Guess the Number Game!" to your Slack inbox
+I'll ping "I'm thinking of a number between 1 and 100." to your Slack inbox
+
+sidenote: Generate a random number between 1 and 100
+Corporate will assign random.randint(1, 100) to secret_number
+
+sidenote: Initialize variables
+Corporate will assign 0 to attempts
+Corporate will assign "is red-flagged" to game_over
+
+sidenote: Main game loop
+While we're on the topic of 'game_over is in alignment with "is red-flagged"',
+    sidenote: Get user guess
+    I'll ping "Enter your guess: " to your Slack inbox
+    Corporate will assign any input you have regarding "" to user_input
+    
+    sidenote: Convert input to integer
+    Corporate will assign int(user_input) to user_guess
+    
+    sidenote: Increment attempt counter
+    Corporate will assign the combined efforts of attempts and 1 to attempts
+    
+    sidenote: Check if guess is correct
+    In the case that 'user_guess is in alignment with secret_number',
+        I'll ping "Congratulations! You guessed the number correctly!" to your Slack inbox
+        I'll ping "Number of attempts: " to your Slack inbox
+        I'll ping attempts to your Slack inbox
+        Corporate will assign "is greenlit" to game_over
+    
+    sidenote: Provide hint if guess is too high
+    Alternatively, in the case that 'user_guess is of greater priority than secret_number',
+        I'll ping "Too high! Try again." to your Slack inbox
+    
+    sidenote: Provide hint if guess is too low
+    Otherwise, let's pivot to
+        I'll ping "Too low! Try again." to your Slack inbox
+
+I'll ping "Thank you for playing!" to your Slack inbox 
