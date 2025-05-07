@@ -1,31 +1,31 @@
 sidenote: Fahrenheit to Celsius Converter in CorpoLang
-sidenote: use corpolang/corpolang.py corpolang/easy_examples/temp_converter.corp to run
+sidenote: use corpolang/src/interpreter.py corpolang/easy_examples/temp_converter.corp to run
 
 sidenote: Define a function to convert Fahrenheit to Celsius
 This project, convert_fahrenheit_to_celsius, will have the following deliverables: fahrenheit
     sidenote: Formula: C = (F - 32) * 5/9
     
     sidenote: First, subtract 32 from fahrenheit (F - 32)
-    Corporate will assign the removal of 32 off the fahrenheit team to adjusted_temp
+    Corporate will assign 'fahrenheit - 32' to adjusted_temp
     
     sidenote: Then multiply by 5 ((F - 32) * 5)
-    Corporate will assign the increased profitability of adjusted_temp by a factor of 5 to multiplied_temp
+    Corporate will assign 'adjusted_temp * 5' to multiplied_temp
     
     sidenote: Finally, divide by 9 ((F - 32) * 5/9)
-    Corporate will assign the delegation of multiplied_temp tasks amongst the 9 teams to celsius
+    Corporate will assign 'multiplied_temp / 9' to celsius
     
     sidenote: Return the result
     then we'll go live with the celsius
 
 sidenote: Get user input
-Corporate will assign any input you have regarding "Enter temperature in Fahrenheit: " to fahrenheit_input
+Corporate will assign 'input("Enter temperature in Fahrenheit: ")' to fahrenheit_input
 
 sidenote: Convert string input to a number
-Corporate will assign float(fahrenheit_input) to fahrenheit_value
+Corporate will assign 'float(fahrenheit_input)' to fahrenheit_value
 
 sidenote: Call the conversion function
-Corporate will assign convert_fahrenheit_to_celsius(fahrenheit_value) to celsius_result
+Corporate will assign 'convert_fahrenheit_to_celsius(fahrenheit_value)' to celsius_result
 
 sidenote: Display the result with formatting
 I'll ping "Temperature in Celsius: " to your Slack inbox
-I'll ping round(celsius_result, 2) to your Slack inbox
+I'll ping celsius_result to your Slack inbox

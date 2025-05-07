@@ -1,18 +1,18 @@
 sidenote: Simple Fibonacci Sequence Generator in CorpoLang
-sidenote: use corpolang/corpolang.py corpolang/complex_examples/fib_simple.corp to run
+sidenote: use corpolang/src/interpreter.py corpolang/complex_examples/fib_simple.corp to run
 
 I'll ping "Fibonacci Sequence Generator" to your Slack inbox
 I'll ping "------------------------" to your Slack inbox
 
 sidenote: Hardcode the number of terms
-Corporate will assign 10 to num_terms
+Corporate will assign '10' to num_terms
 
 sidenote: Initialize first two Fibonacci numbers
-Corporate will assign 0 to first_term
-Corporate will assign 1 to second_term
+Corporate will assign '0' to first_term
+Corporate will assign '1' to second_term
 
 sidenote: Initialize counter for the loop
-Corporate will assign 2 to counter
+Corporate will assign '2' to counter
 
 sidenote: Print initial Fibonacci numbers
 I'll ping first_term to your Slack inbox
@@ -21,14 +21,14 @@ I'll ping second_term to your Slack inbox
 sidenote: Generate remaining Fibonacci numbers
 While we're on the topic of 'counter is of lesser priority than num_terms',
     sidenote: Calculate next Fibonacci number
-    Corporate will assign the combined efforts of first_term and second_term to next_term
+    Corporate will assign 'first_term + second_term' to next_term
     
     sidenote: Display the number
     I'll ping next_term to your Slack inbox
     
     sidenote: Update values for next iteration
-    Corporate will assign second_term to first_term
-    Corporate will assign next_term to second_term
+    Corporate will assign 'second_term' to first_term
+    Corporate will assign 'next_term' to second_term
     
     sidenote: Increment counter
-    Corporate will assign the combined efforts of counter and 1 to counter 
+    Corporate will assign 'counter + 1' to counter 

@@ -3,7 +3,7 @@ sidenote: use corpolang/corpolang.py corpolang/easy_examples/hello_world.corp to
 
 I'll ping "Hello, World!" to your Slack inbox
 
-Corporate will assign "CorpoLang" to language_name
+Corporate will assign '"CorpoLang"' to language_name
 
 I'll ping "Welcome to" to your Slack inbox
 I'll ping language_name to your Slack inbox
