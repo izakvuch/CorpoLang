@@ -1,5 +1,5 @@
 sidenote: Guess the Number Game in CorpoLang
-sidenote: use corpolang/src/interpreter.py corpolang/complex_examples/guess_number.corp to run
+sidenote: use python3 corpolang/src/interpreter.py corpolang/complex_examples/guess_number.corp to run
 
 sidenote: Import random module
 Let's leverage random moving forward for this project
